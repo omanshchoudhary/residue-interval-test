@@ -1,0 +1,15 @@
+autopar 1.296 s  checksum 11000000.000000
+autopar 1.309 s  checksum 11000000.000000
+autopar 1.354 s  checksum 11000000.000000
+autopar 1.356 s  checksum 11000000.000000
+autopar 1.432 s  checksum 11000000.000000
+outer 0.471 s  checksum 11000000.000000
+outer 0.551 s  checksum 11000000.000000
+outer 0.575 s  checksum 11000000.000000
+outer 0.603 s  checksum 11000000.000000
+outer 0.638 s  checksum 11000000.000000
+serialO3 0.607 s  checksum 11000000.000000
+serialO3 0.618 s  checksum 11000000.000000
+serialO3 0.682 s  checksum 11000000.000000
+serialO3 0.697 s  checksum 11000000.000000
+serialO3 0.733 s  checksum 11000000.000000

@@ -1,0 +1,8 @@
+build/
+code/rit_eval
+code/serial
+code/autopar
+code/outer
+code/*.parloops*
+code/*.o
+*.pdf

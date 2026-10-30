@@ -1,0 +1,49 @@
+## exhaustive 1 8 8
+total=3232 dependent=704 independent=2528
+proved independent: GCD=2432 Banerjee=512 GCD+Banerjee=2528 (100.00%) I=2528 (100.00%) RIT=2528 (100.00%)
+I proved but RIT missed=0  wrong answers=0  max rounds=2
+## exhaustive 2 8 6
+total=336384 dependent=152256 independent=184128
+proved independent: GCD=76464 Banerjee=36864 GCD+Banerjee=104400 (56.70%) I=114480 (62.17%) RIT=184128 (100.00%)
+I proved but RIT missed=0  wrong answers=0  max rounds=3
+## exhaustive 3 6 4
+first miss: -4x1[0,2] -5x2[0,2] -6x3[0,1] = -12
+total=3456000 dependent=2273640 independent=1182360
+proved independent: GCD=357120 Banerjee=442368 GCD+Banerjee=753408 (63.72%) I=805008 (68.08%) RIT=1179816 (99.78%)
+I proved but RIT missed=0  wrong answers=0  max rounds=7
+## exhaustive 4 3 3
+total=2204496 dependent=1698192 independent=506304
+proved independent: GCD=38880 Banerjee=419904 GCD+Banerjee=451008 (89.08%) I=461376 (91.13%) RIT=506304 (100.00%)
+I proved but RIT missed=0  wrong answers=0  max rounds=4
+## random 3 20 30 40000
+total=40000 dependent=27767 independent=12233
+proved independent: GCD=3659 Banerjee=0 GCD+Banerjee=3659 (29.91%) I=3744 (30.61%) RIT=11168 (91.29%)
+I proved but RIT missed=0  wrong answers=0  max rounds=11
+## random 3 100 100 8000
+total=8000 dependent=4233 independent=3767
+proved independent: GCD=838 Banerjee=0 GCD+Banerjee=838 (22.25%) I=840 (22.30%) RIT=3059 (81.21%)
+I proved but RIT missed=0  wrong answers=0  max rounds=39
+## random 4 20 20 40000
+total=40000 dependent=32196 independent=7804
+proved independent: GCD=1543 Banerjee=0 GCD+Banerjee=1543 (19.77%) I=1556 (19.94%) RIT=6216 (79.65%)
+I proved but RIT missed=0  wrong answers=0  max rounds=8
+## random 4 50 40 8000
+total=8000 dependent=5758 independent=2242
+proved independent: GCD=347 Banerjee=0 GCD+Banerjee=347 (15.48%) I=348 (15.52%) RIT=1551 (69.18%)
+I proved but RIT missed=0  wrong answers=0  max rounds=6
+## random 5 12 10 40000
+total=40000 dependent=35924 independent=4076
+proved independent: GCD=729 Banerjee=0 GCD+Banerjee=729 (17.89%) I=757 (18.57%) RIT=3528 (86.56%)
+I proved but RIT missed=0  wrong answers=0  max rounds=5
+## random 6 8 8 40000
+total=40000 dependent=38107 independent=1893
+proved independent: GCD=303 Banerjee=0 GCD+Banerjee=303 (16.01%) I=306 (16.16%) RIT=1743 (92.08%)
+I proved but RIT missed=0  wrong answers=0  max rounds=5
+## single
+GCD=maybe Banerjee=maybe I=maybe RIT=independent truth=independent
+GCD=maybe Banerjee=maybe I=independent RIT=independent truth=independent
+## timing
+GCD+Banerjee           70 ns per query (183410)
+I test                169 ns per query (183175)
+RIT                  1643 ns per query (147248)
+exact sums         127168 ns per query (1374)
